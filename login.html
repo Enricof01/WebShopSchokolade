@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hauptseite</title>
-    <link rel="stylesheet" href="nav.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <!-- Navigationsleiste -->
-    <nav>
-        <a href="index.html"><img src="bilder/logo.png" alt=""></a>
-        <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="Produkte.html">Produkte</a></li>
-            <li><a class="active" href="ueberUns.html">Über Uns</a></li>
-            <button><a href="anmeldung.html">Anmeldung</a></button>
-            <button><a href="login.html">Login</a></button>
-        </ul>
-    </nav>
-
-    <h1>zum Einloggen</h1>
+    <div class="warpper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Anmeldename" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Passwort" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#"><b>Passwort vergessen?</b></a>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+            <div class="register-link">
+                <p>Sie haben noch keinen Account?<a href="#">  Registrierung</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

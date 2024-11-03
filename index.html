@@ -6,6 +6,7 @@
     <title>Hauptseite</title>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="foot.css">
+    <link rel="stylesheet" href="hauptseite.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -17,7 +18,7 @@
                 <li><a href="index.html">Startseite</a></li>
                 <li><a href="Produkte.html">Produkte</a></li>
                 <li><a class="active" href="ueberUns.html">Über Uns</a></li>
-                <button><a href="anmeldung.html">Anmeldung</a></button>
+                <button><a href="warenkorb.html">Warenkorb</a></button>
                 <button><a href="login.html">Login</a></button>
             </ul>
         </nav>
@@ -28,54 +29,51 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- Spalte für Blog Einträge -->
+    <div class="w3-col l8 s12">
+        <!-- Blog 1 -->
+        <div class = "w3-card-4 w3-margin w3-white">
+            <img src="Bilder/schoko1.png" alt="Nature" style="width:20%">
+            <div class="w3-container">
+                <h3><b>Wälder</b></h3>
+                <h5>Der Schwarzwald, <span class="w3-opacity">Oktober 24, 2024</span></h5>
+            </div>
+            <div class="w3-container">
+                <p>Der Namensgeber dieses dicht bewaldeten Gebietes sind die ausgedehnten, dunklen Mischwälder mit den charakteristischen Weißtannen. Die langen und gerade gewachsenen Tannen wurden früher sogar nach Amsterdam geflößt, um als Pfähle für den Hausbau im sandigen und nassen Untergrund sowie als Schiffsmasten zu dienen. Deshalb wurden die Tannen auch „Holländer“ genannt. Der Feldberg ist als höchster Berggipfel des Schwarzwaldes mit über 1.490 m bekannt.</p>
+                <div class="w3-row">
+                    <div class="w3-col m8 s12">
+                        <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b>           </button></p>
+                    </div>
+                    <div class="w3-col m4 w3-hide-small">
+                        <p><span class ="w3-padding-large w3-right"><b>Comments &nbsp;</b><span class="w3-tag">0</span></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Blog 2 -->
+        <div class = "w3-card-4 w3-margin w3-white">
+            <img src="Bilder/ozean.png" alt="Nature" style="width:100%">
+            <div class="w3-container">
+                <h3><b>Ozean</b></h3>
+                <h5>Der Atlantik, <span class="w3-opacity">August 02, 2024</span></h5>
+            </div>
+            <div class="w3-container">
+                    <p> Der Atlantische Ozean oder Atlantik ist einer der Ozeane oder auch Weltmeere. Der Atlantik ist nach dem Pazifischen Ozean der zweitgrößte Ozean. Er befindet sich zwischen Amerika im Westen und Europa sowie Afrika im Osten.<br>
+                    Hier könnt Ihr noch mehr über den zweitgrößten Ozean der Welt erfahren: <a href=" https://www.youtube.com/watch?v=hH976QIVQgk&ab_channel=TerraXplus" target = "blank">Die Geburt des Atlantiks</a></p>
+                <div class="w3-row">
+                    <div class="w3-col m8 s12">
+                        <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                    </div>
+                    <div class="w3-col m4 w3-hide-small">
+                        <p><span class ="w3-padding-large w3-right"><b>Comments &nbsp;</b><span class="w3-tag">0</span></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    <!-- ENDE BLOGSPALTE -->
+    </div>
     <br>
     <br>
     <br>
@@ -85,16 +83,16 @@
         <div class="container">
             <div class="footer-content">
                 <h3>Kontaktieren Sie uns</h3>
-                <p>Email: info@schokolade.de</p>
-                <p>Telefon: 0170000000</p>
-                <p>Adresse: Burgstraße 1 72760 Reutlingen</p>
+                <p><b>Email:</b> info@schokolade.de</p>
+                <p><b>Telefon:</b> +49 171 7773450</p>
+                <p><b>Adresse:</b> Burgstraße 1. 72760 Reutlingen</p>
             </div>
             <div class="footer-content">
                 <h3>Quick Links</h3>
                 <ul class="list">
                     <li><a href="index.html">Startseite</a></li>
                     <li><a href="ueberUns.html">Über Uns</a></li>
-                    <li><a href="Produkte.html">Produkte</a></li>
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
                     <li><a href="Impressum.html">Impressum</a></li>
                 </ul>
             </div>
@@ -104,11 +102,12 @@
                 <li><a href=""><i class="bx bxl-facebook-circle"></i></a></li>
                 <li><a href=""><i class="bx bxl-instagram"></i></a></li>
                 <li><a href=""><i class="bx bxl-twitter"></i></a></li>
+                <li><a href=""><i class="bx bxl-linkedin-square"></i></a></li>
                 </ul>
             </div>
         </div>
         <div class="bottom-bar">
-            <p>&copy; 1882 Custom Chocolate</p>
+            <p>&copy; 1882 Custom Chocolate by ENKOMA</p>
         </div>
     </footer>
 </body>

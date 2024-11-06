@@ -4,80 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hauptseite</title>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="foot.css">
     <link rel="stylesheet" href="hauptseite.css">
+    <link rel="stylesheet" href="foot.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!-- Navigationsleiste -->
     <header>
         <nav>
-            <a href="index.html"><img src="bilder/logo.png" alt=""></a>
             <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="Produkte.html">Produkte</a></li>
-                <li><a class="active" href="ueberUns.html">Über Uns</a></li>
-                <button><a href="warenkorb.html">Warenkorb</a></button>
-                <button><a href="login.html">Login</a></button>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="Produkte.html">Produkte</a></li>
+            <li><a class="active" href="ueberUns.html">Über Uns</a></li>
+            <button><a href="warenkorb.html">Warenkorb</a></button>
+            <button><a href="login.html">Login</a></button>
             </ul>
         </nav>
     </header>
-    
-    <h1>Hauptseite</h1>
     <br>
-    <br>
-    <br>
-    <br>
-    <!-- Spalte für Blog Einträge -->
-    <div class="w3-col l8 s12">
-        <!-- Blog 1 -->
-        <div class = "w3-card-4 w3-margin w3-white">
-            <img src="Bilder/schoko1.png" alt="Nature" style="width:20%">
-            <div class="w3-container">
-                <h3><b>Wälder</b></h3>
-                <h5>Der Schwarzwald, <span class="w3-opacity">Oktober 24, 2024</span></h5>
-            </div>
-            <div class="w3-container">
-                <p>Der Namensgeber dieses dicht bewaldeten Gebietes sind die ausgedehnten, dunklen Mischwälder mit den charakteristischen Weißtannen. Die langen und gerade gewachsenen Tannen wurden früher sogar nach Amsterdam geflößt, um als Pfähle für den Hausbau im sandigen und nassen Untergrund sowie als Schiffsmasten zu dienen. Deshalb wurden die Tannen auch „Holländer“ genannt. Der Feldberg ist als höchster Berggipfel des Schwarzwaldes mit über 1.490 m bekannt.</p>
-                <div class="w3-row">
-                    <div class="w3-col m8 s12">
-                        <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b>           </button></p>
+    <!-- Slider Hauptseite -->
+    <div class="carousel">
+        <!-- List item -->
+        <div class="list">
+            <div class="item">
+                <img src="bilder/schoko1.png" alt="">
+                <div class="content">
+                    <div class="titel">Custom Chocolate</div>
+                    <div class="thema">Kreier deine Traumschokolade!</div>
+                    <div class="text"><h2>Kreieren deine eigene Traumschokolade, aus erlesenen zutaten! <br> 
+                    Oder wähle aus bis zu 100 Kombinationen unserer Meister Konditoren aus.</h2>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
-                        <p><span class ="w3-padding-large w3-right"><b>Comments &nbsp;</b><span class="w3-tag">0</span></span></p>
+                    <div class="buttons">
+                        <button><a href="#"><b>Custom</b></a></button>
+                        <button><a href="Produkte.html"><b>Produkte</b></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bilder/schoko2.png" alt="">
+                <div class="content">
+                    <div class="titel">Custom Chocolate</div>
+                    <div class="thema">Produkte & Mehr</div>
+                    <div class="text"><h2>Erfahre mehr über unsere erlesenen und handausgewählten Produkte. Mit über 100 verschieden Sorten 
+                    und dutzenden Kombinationsmöglichkeiten, ist für jeden Geschmack etwas dabei.</h2>
+                    </div>
+                    <div class="buttons">
+                        <button><a href="Produkte.html"><b>Produkte</b></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bilder/schoko3.png" alt="">
+                <div class="content">
+                    <div class="titel">Über Uns</div>
+                    <div class="thema">Firmengeschichte & mehr</div>
+                    <div class="text"><h2>Die Custom Chocolate GmbH blickt auf eine traditionsreiche, über 140-jährige Geschichte zurück, 
+                        die bis in das Jahr 1882 reicht. Gegründet wurde das Unternehmen von Peter Keil unter dem Namen 
+                        „Peter's Schokoladenhaus“ in der Burgstraße 1 in Reutlingen, wo sich auch heute noch der  
+                        Hauptsitz befindet. Die Firma, die seit fünf Generationen im Familienbesitz ist, hat sich seit ihren  
+                        Anfängen als kleine, handwerkliche Chocolaterie zu einem renommierten Hersteller feinster  
+                        Schokoladenkreationen entwickelt. Aktuell führt Konstantin Keil, der Ur-Ur-Enkel des 
+                        Firmengründers, die Custom Chocolate GmbH in das 21. Jahrhundert, ohne dabei die Wurzeln und 
+                        Werte des Unternehmens aus den Augen zu verlieren....</h2>
+                    </div>
+                    <div class="buttons">
+                        <button><a href="ueberUns.html"><b>Mehr >></b></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bilder/fairtrade.png" alt="">
+                <div class="content">
+                    <div class="titel">Nachhaltigkeit</div>
+                    <div class="thema">Fair Trade & mehr</div>
+                    <div class="text"><h2>Die Custom Chocolate GmbH hat sich weltweit für fairen Handel und nachhaltige Schokoladenproduktion 
+                    stark gemacht. Unter der Leitung von Konstantin Keil setzt das Unternehmen gezielt auf ethische und soziale Verantwortung, 
+                    indem es sich in verschiedenen Projekten engagiert, die das Leben der Kakaobauern und ihrer Gemeinden verbessern.....</h2>
+                    </div>
+                    <div class="buttons">
+                        <button><a href="fairtrade.html"><b>Mehr >></b></a></button>
                     </div>
                 </div>
             </div>
         </div>
-        <hr>
-        <!-- Blog 2 -->
-        <div class = "w3-card-4 w3-margin w3-white">
-            <img src="Bilder/ozean.png" alt="Nature" style="width:100%">
-            <div class="w3-container">
-                <h3><b>Ozean</b></h3>
-                <h5>Der Atlantik, <span class="w3-opacity">August 02, 2024</span></h5>
-            </div>
-            <div class="w3-container">
-                    <p> Der Atlantische Ozean oder Atlantik ist einer der Ozeane oder auch Weltmeere. Der Atlantik ist nach dem Pazifischen Ozean der zweitgrößte Ozean. Er befindet sich zwischen Amerika im Westen und Europa sowie Afrika im Osten.<br>
-                    Hier könnt Ihr noch mehr über den zweitgrößten Ozean der Welt erfahren: <a href=" https://www.youtube.com/watch?v=hH976QIVQgk&ab_channel=TerraXplus" target = "blank">Die Geburt des Atlantiks</a></p>
-                <div class="w3-row">
-                    <div class="w3-col m8 s12">
-                        <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="bilder/schoko1.png" alt="">
+                <div class="content">
+                    <div class="titel">
+                        <b>Custom Chocolate</b>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
-                        <p><span class ="w3-padding-large w3-right"><b>Comments &nbsp;</b><span class="w3-tag">0</span></span></p>
+                    <div class="text">
+                        Kreier deine Traumschokolade!
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bilder/schoko2.png" alt="">
+                <div class="content">
+                    <div class="titel">
+                        <b>Custom Chocolate</b>
+                    </div>
+                    <div class="text">
+                        Produkte
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bilder/schoko3.png" alt="">
+                <div class="content">
+                    <div class="titel">
+                        Über Uns
+                    </div>
+                    <div class="text">
+                        Firmengeschichte & mehr
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bilder/fairtrade.png" alt="">
+                <div class="content">
+                    <div class="titel">
+                        Nachhaltigkeit
+                    </div>
+                    <div class="text">
+                        Fair Trade & mehr
                     </div>
                 </div>
             </div>
         </div>
-        <hr>
-    <!-- ENDE BLOGSPALTE -->
+        <!-- Hover Pfeile -->
+        <div class="pfeile">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <div class="time"></div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
+    <script src="slider.js"></script>
     <!-- Fußzeile Impressum -->
     <footer>
         <div class="container">

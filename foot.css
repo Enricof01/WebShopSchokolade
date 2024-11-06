@@ -1,9 +1,11 @@
 footer{
-      background: transparent;
+      background: black;
       padding-top: 50px;
+      height: 250px;
 }
 .container{
     width: 1140px;
+    max-width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -22,9 +24,11 @@ footer h3{
     padding: 7px;
     color: white;
     text-align: center;
+    font-weight: bold;
 }
 .footer-content ul{
     text-align: center;
+    font-weight: bold;
 }
 .list{
     padding: 0;

@@ -1,0 +1,30 @@
+#product-1{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    margin-right: 5%;
+
+}
+
+#product-2{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+}
+
+
+.products{
+    padding: 5%;
+    display: flex;
+    color: white;
+}
+
+#product-1 a {
+    position: relative;
+    top: 200px;
+    color: white;
+}
+
+h2{
+    color: white;
+}

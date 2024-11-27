@@ -1,0 +1,15 @@
+.productView{
+    display: flex;
+    padding-left: 10%;
+}
+
+#productSpecs{
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    color: white;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 1%;
+}
+

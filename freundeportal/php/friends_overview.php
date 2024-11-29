@@ -20,7 +20,7 @@
         <div class="page-header">
             <div class="row">
                 <div class="col col-sm-2">
-                    <img src="images/freunde_klein.png" class="img-responsive" width="130px">
+                    <img src="../images/freunde_klein.png" class="img-responsive" width="130px">
                 </div>
                 <div class="col col-sm-10">
                     <h1>Freunde Portal</h1><h4>verwalte deine Freunde :)</h4>
@@ -75,7 +75,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <a href="friends_edit.html"><i class="fa fa-pencil-alt"></i></a>
+                        <a href="friends_edit.php"><i class="fa fa-pencil-alt"></i></a>
                       </td>
                       <td>2</td>
                       <td>Saskia</td>

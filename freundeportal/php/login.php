@@ -33,7 +33,7 @@
 
                             <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
                                 
-                                <form id="loginform" class="form-horizontal" role="form">
+                                <form method="post" action="checklogin.php" id="loginform" class="form-horizontal" role="form">
                                         
                                       <div style="margin-bottom: 25px" class="input-group">
                                                   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -47,7 +47,7 @@
 
                                       <div style="margin-top:10px" class="form-group">
                                           <div class="col-sm-12 controls">
-                                            <a id="btn-login" href="portalview.php" class="btn btn-success">Login  </a>
+                                            <button type="submit" id="btn-login" class="btn btn-success">Login</button>
                                           </div>
                                       </div>
 

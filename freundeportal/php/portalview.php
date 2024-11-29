@@ -1,5 +1,14 @@
-<!DOCTYPE html>
+<?php
+  //PHP Session starten 
+  session_start();
 
+  if($_SESSION['login']!=111){
+    //Sofort Logout!
+    header("Location: login.php");
+  }
+?>
+
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -36,8 +45,21 @@
 
     	<div class="row">
     		<h1>Herzlich Willkommen</h1>
-        <p>Schön, dass du hier bist <b>Anna Mustermann</b></p>
-        <p>Du hast gerade <b>3</b> Freunde!</p>
+        <p>Schön, dass du hier bist <b><?php echo $_SESSION['firstname']."".$_SESSION['lastname']; ?></b></p>
+        <p>Du hast gerade <b> <?php
+          
+        include 'dbsettings.php';
+
+        //Verbindung zur Datenbank
+        $conn = new PDO("mysql:host=localhost;dbname=".$dbDatabasename,$dbLoginUsername,$dbPassword);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        
+        $sql="SELECT * FROM fpfriends WHERE userid=".$_SESSION['id'];
+        $result = $conn->query($sql);
+        echo $result->rowCount();
+        
+        ?>
+        </b>Freunde!</p>
     	</div>
     </div>
 

@@ -1,1 +1,0 @@
-require_once '../extern/google_auth/PHPGangsta/GoogleAuthenticator.php';

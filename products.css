@@ -3,8 +3,6 @@
     width: 200px;
     height: 200px;
     margin-right: 5%;
-    
-
 }
 
 #product-2{
@@ -26,8 +24,9 @@
     color: white;
 }
 
-h2{
+#description h2{
     color: white;
+    margin-left: 5%;
 }
 
 #shoppingCartZone{
@@ -38,6 +37,7 @@ h2{
     border-radius: 30px;
     padding-top: 2%;
     padding-left: 2%;
+    padding-right: 2%;
 }
 
 #ShoppingCartTop
@@ -49,9 +49,6 @@ h2{
     float:right;
 }
 
-hr{
-    margin-right: 2%;
-}
 
 
 

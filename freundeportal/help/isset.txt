@@ -1,5 +1,0 @@
-
-    if (isset($_POST[''])) 
-    {
-        $xVariable=$_POST[''];
-    }

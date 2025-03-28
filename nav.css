@@ -46,6 +46,13 @@ h1{
     margin-top: 10px;
     float: left;
 }
+h2{
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 nav ul li :active{
     color: rgb(39, 40, 41);
 }
@@ -59,6 +66,8 @@ h3{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 25px;
+    line-height: 1.2em;
+    margin-bottom: 6px;
 }
 nav h2{
     margin-left: 25px;

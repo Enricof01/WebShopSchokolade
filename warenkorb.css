@@ -8,7 +8,7 @@ html{
 }
 body{
     height: 100%;
-    background-image: url(bilder/schoko1.png);
+    /* background-image: url(bilder/schoko1.png); */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ nav li{
 nav li a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -56,14 +56,14 @@ nav img{
     margin-left: 20px;
 }
 h3{
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 25px;
 }
 nav h2{
     margin-left: 25px;
     margin-top: 50px;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 button{
@@ -73,20 +73,39 @@ button{
     border-radius: 10px;
     padding: 10px;
     width: 100px;
+    margin-top: 50px;
 }
 button a{
-    color: white; 
+    color: black; 
     font-weight: bold; 
     font-size: 20px;
     text-decoration: none;
     margin-left: 5px;
     margin-right: 5px;
+    /* padding: auto; */
+    
 }
 
 .products{
     min-height: 100%;
 }
 
-#trennlinie{
+.banner{
+    position: relative;
+    width: 100%;
+    height: 3%;
+
+    background-color: gray;
+    color: black;
+    /* opacity: 0.7; */
+
+}
+
+.banner p{
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#trennLinie{
     width: 100%;
 }
